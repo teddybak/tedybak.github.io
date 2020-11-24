@@ -1,3 +1,4 @@
+import { APP_BASE_HREF } from '@angular/common'
 import { HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core'
 import { FormsModule } from '@angular/forms'
@@ -31,7 +32,7 @@ import { NavbarComponent } from './components/navbar/navbar.component'
     CvModule
 
   ],
-  providers: [],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
