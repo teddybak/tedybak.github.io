@@ -1,0 +1,95 @@
+
+    [  {
+      "id": 1,
+      "company": "Spacebar Media UK",
+      "start": "2019 - January",
+      "end": "2019 December",
+      "description": "",
+      "environment": "Micro-services architecture, Docker Container, Lamp Stack, Angular 7",
+      "position": "Full Stack Dev",
+      "duties": [
+        {"task": "Moving from a monolithic architecture to micro - services using Docker containers and Kubernetes"},
+        {"task":"Improving performance issues"},
+        {"task": "Adding new functionality onto Back- office"},
+        {"task":"Integration with3 party libraries "},
+        {"task":"Monitor system performance and capacity, and provide periodic system status reports to the team"},
+        {"task":"Manteining legacy web services based in SOAP"},
+        {"task":"Build new stores procedures to handle new business logic requirement"},
+        {"task":"Designing and developing user interfaces using Angular 7 best practices.Java script ecosystem es and rest web services"}
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Dwell",
+      "start": "2017-Sep",
+      "end": "2018-Sep",
+      "description": "",
+      "environment": "Tech Stack : Lamp Stack zend Framework",
+      "position": "Senior front-end developer ",
+      "duties": [
+        {"task":"Improved the technological infrastructure of Coinsys and updated their core and auxiliary systems along with setup of servers for development and load balancing."},
+        {"task":"Building PHP websites using PHP based frameworks."},
+        {"task":"Testing and validating work produced as part of the development process."},
+        {"task":"Developing compatible User Interface functionality using jQuery & other libraries"},
+        {"task":"Monitoring metrics and logs"}
+      ]
+    },
+    {
+      "id": 3,
+      "company": "HEARST Magazines UK",
+      "start": "2017-Apr",
+      "end": "2017-Sep",
+      "description": "",
+      "environment": "Micro-services architecture, Docker Container, Lamp Stack Event driven architecture, Multilingual(Python, php, javascript, go), Django Framework",
+      "position": "Senior Web Engineer",
+      "duties": [
+        {"task":"Execute and develop projects following the agile software development methodology"},
+        {"task": "Refactoring legacy code and building new features according with sprint planningPerformance issues Adding new functionality onto Back- office"},
+        {"task": "Diagnoses, troubleshoots and provides technical resolution to performance issues and incident events related to the server infrastructure"}
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Savewater Savemoney",
+      "start": "2016-Apr",
+      "end": "2017-Apr",
+      "description": "",
+      "environment": "Lamp Stack, Laravel as PHP 5.2., Angularjs, Phpunit, Sass, bower",
+      "position": "Senior Web Engineer",
+      "duties": [
+        {"task": "Task management: Establishes departmental priorities, develops project plans, and leads project teams. Coordinates efforts within team and across departments"},
+        {"task":"Monitoring metrics using tools Dynatrace and logs"},
+        {"task":"Maintain and update the online marketing plan for the website, testing against W3C and validating work produced as part of development process, write Technical specifications & infrastructure requirements, monitor key performance.Designed and implemented APIs to support mobile applications"}
+      ]
+    },
+    {
+      "id": 5,
+      "company": "Adlancia",
+      "start": "2010 March",
+      "end": "2016 March",
+      "description": "",
+      "environment": "Lamp Stack, Magento Eccomerce platform, Virtual Box, vagrant, puppet",
+      "position": "Full Stack Dev",
+      "duties": [
+        {"task":"Secured servers against critical security vulnerabilities"},
+        {"task":"Quickly, diagnosed and helped fix memory consumption problem for corporate site"},
+        {"task":"Build a new environment using with Puppet , vagrant based Linux environments (centos). Check data validation in controllers ( Phalcon framework)"},
+        {"task":"Integration with3 party libraries"},
+        {"task":"Build a Dashboard to manage all system users"},
+        {"task":"Create php unit tests using guzzle as http client"}
+      ]
+    },
+    {
+      "id": 6,
+      "company": "City Council of Seville, Traffic Engineering",
+      "start": "1997 December",
+      "end": "2010 January",
+      "description": "",
+      "environment": "Vax Stations, Open VMS, Visual Basic, .NET, ASP",
+      "position": "Full Stack Dev",
+      "duties": [
+        {"task":"Integrate technologies in the fields of Intelligent Transport Systems"},
+        {"task":"Managing database security/integrity and backup procedures"}
+       ]
+    }]
+

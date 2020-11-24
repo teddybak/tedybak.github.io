@@ -1,0 +1,59 @@
+<div class="container">
+  <table class="table table-sm table-dark mt-5">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Company</th>
+        <th scope="col">Start</th>
+        <th scope="col">End</th>
+        <th scope="col">Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let el of elements">
+        <th scope="row">
+          <a>{{ el.id }}</a>
+        </th>
+        <td>
+          <a
+            [routerLink]="['/cv/details', el.id]"
+            (click)="perform(el.id)"
+            [ngClass]="{ highlighted: selectedRow === el.id }"
+            >{{ el.company }}</a
+          >
+        </td>
+        <td>
+          <a
+            [routerLink]="['/cv/details', el.id]"
+            (click)="perform(el.id)"
+            [ngClass]="{ highlighted: selectedRow === el.id }"
+            >{{ el.start }}</a
+          >
+        </td>
+        <td>
+          <a
+            [routerLink]="['/cv/details', el.id]"
+            (click)="perform(el.id)"
+            [ngClass]="{ highlighted: selectedRow === el.id }"
+            >{{ el.end }}</a
+          >
+        </td>
+        <td>
+          <a
+            [routerLink]="['/cv/details', el.id]"
+            (click)="perform(el.id)"
+            [ngClass]="{ highlighted: selectedRow === el.id }"
+            >{{ el.position }}</a
+          >
+        </td>
+        <td>
+          <a [routerLink]="['/cv/details', el.id]" (click)="perform(el.id)"
+            ><i class="fas fa-info-circle"></i
+          ></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <router-outlet> </router-outlet>
+</div>

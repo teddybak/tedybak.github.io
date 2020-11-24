@@ -1,0 +1,75 @@
+<!--Navbar-->
+<mdb-navbar
+  SideClass="navbar navbar-expand-lg navbar-dark unique-color"
+  [containerInside]="false"
+>
+  <!-- Navbar brand -->
+  <mdb-navbar-brand
+    ><a class="navbar-brand" [routerLink]="['']">Home</a></mdb-navbar-brand
+  >
+
+  <!-- Collapsible content -->
+  <links>
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link waves-light"
+          mdbWavesEffect
+          routerLinkActive="active"
+          [routerLink]="['/cv']"
+          >Cv</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link waves-light"
+          mdbWavesEffect
+          routerLinkActive="active"
+          [routerLink]="['/development']"
+          >Technical Skills</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link waves-light"
+          mdbWavesEffect
+          routerLinkActive="active"
+          [routerLink]="['/servers']"
+          >Servers</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link waves-light"
+          mdbWavesEffect
+          routerLinkActive="active"
+          [routerLink]="['/about']"
+          >About</a
+        >
+      </li>
+
+      <!-- Dropdown -->
+    </ul>
+    <!-- Links -->
+
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/tedybak">
+          <mdb-icon fab icon="github"></mdb-icon>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://www.linkedin.com/in/tedy-bakali-05593130/"
+        >
+          <mdb-icon fab icon="linkedin-in"></mdb-icon>
+        </a>
+      </li>
+    </ul>
+  </links>
+  <!-- Collapsible content -->
+</mdb-navbar>
+<!--/.Navbar-->
